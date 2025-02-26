@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getTweet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_content",
+						"type": "string"
+					}
+				],
+				"name": "postTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tweets",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "content",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "author",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Tweeting.sol": "TweetContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Tweeting.sol": {
+			"keccak256": "0xc5f124d6824a47af8b4a5e28e6c14960424b15ceed7cb72005d8bc1ded49602e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b74206eb2646e2c4ded5785dae53b87e5046a7ebf7791fb6dfcf7838ae3d983c",
+				"dweb:/ipfs/QmZfg8d6ey42qXuDFgot88m2XZc9WStyjiRhGjMb1Zt4K1"
+			]
+		}
+	},
+	"version": 1
+}
