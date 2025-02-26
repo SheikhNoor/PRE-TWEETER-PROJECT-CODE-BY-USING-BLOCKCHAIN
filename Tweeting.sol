@@ -36,7 +36,7 @@ contract tweet{
         require(_index < tw.length, "Index out of bounds");
         tweetContent memory t  = tw[_index];
         return (t.content, t.author,t.times);
-        // tweetContent memory tw = tweetContent[_index];
+        // tweetContent memory t = tweetContent[_index];
         // string[] memory postString = new string[](2);
         // postString[0] = tw.content;
         // postString[1] = tw.author.toBase64();
