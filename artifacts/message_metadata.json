@@ -42,6 +42,11 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_recipient",
+						"type": "address"
+					},
+					{
 						"internalType": "string",
 						"name": "_content",
 						"type": "string"
@@ -115,11 +120,11 @@
 	},
 	"sources": {
 		"messsaging.sol": {
-			"keccak256": "0x1f589083ade9b56b8fa3843a9c8efc82dbed970c1436e950f4c2908a89510e0a",
+			"keccak256": "0xd5866ec6239e1476a782d0c0ae7cbb9ae181a3f06e0a488aa2183413edbeac6a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://297b0138dfc5b6364c7a1788c95e6b9f7940f9c7abff0224a13c4f6ebf2fe924",
-				"dweb:/ipfs/Qmcwe72uJm9mDGNYyLRnR1xLHP8YMNfDMVgbwQmjgMdBuQ"
+				"bzz-raw://8a7f5044645dbfa5baa759fc662bcdbbc16d4fc941b50aa4657fdd5b010f450b",
+				"dweb:/ipfs/QmQCcurUQpaQC7Ngpr4sd5HhupG2vV1ZNGd1WsGibb9aEn"
 			]
 		}
 	},

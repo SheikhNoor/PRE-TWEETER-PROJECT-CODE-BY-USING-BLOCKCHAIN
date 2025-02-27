@@ -11,10 +11,10 @@ contract message{
 
     messanging[] public ms;
 
-    function postMessage(string memory _content) public{
+    function postMessage(address _recipient,string memory _content) public{
         messanging memory newMessage = messanging({
             sender : msg.sender,
-            recipient: msg.sender,
+            recipient: _recipient,
             content: _content,
             timestamp:block.timestamp
         });
