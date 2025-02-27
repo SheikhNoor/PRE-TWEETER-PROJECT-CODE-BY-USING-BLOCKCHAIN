@@ -12,6 +12,7 @@ contract message{
     messanging[] public ms;
 
     function postMessage(address _recipient,string memory _content) public{
+        require(_recipient != msg.sender,"sender and recieption cannot be same");
         messanging memory newMessage = messanging({
             sender : msg.sender,
             recipient: _recipient,
@@ -25,7 +26,6 @@ contract message{
     function viewMessage(uint256 _index) public view returns(address, address, string memory, uint256){
         require(_index< ms.length,"index out of bounds");
         messanging memory m = ms[_index];
-        // messanging memory r = ms[_index];
         return(m.sender, m.recipient, m.content,m.timestamp);
     }
 

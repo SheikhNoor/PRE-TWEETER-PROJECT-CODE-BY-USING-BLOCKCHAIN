@@ -120,11 +120,11 @@
 	},
 	"sources": {
 		"messsaging.sol": {
-			"keccak256": "0xd5866ec6239e1476a782d0c0ae7cbb9ae181a3f06e0a488aa2183413edbeac6a",
+			"keccak256": "0x955c432fc57aec62336cf1634396f2c0ef112aac8792152fbed278f1e00fa13c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8a7f5044645dbfa5baa759fc662bcdbbc16d4fc941b50aa4657fdd5b010f450b",
-				"dweb:/ipfs/QmQCcurUQpaQC7Ngpr4sd5HhupG2vV1ZNGd1WsGibb9aEn"
+				"bzz-raw://e024ed337b4eb447b07732d90adda4aed7ea53b4ab38d3c576416a14d82bf18e",
+				"dweb:/ipfs/QmYWfmnw7xydU6scrvdZJaonKBDn7rgBrxo3qTLPGSCMzH"
 			]
 		}
 	},
